@@ -1,5 +1,9 @@
 // reverse a number 
 function reverseNum(number){
+        if(num>=0 && num<9)
+    {
+        return num;
+    }
     let rever=0;
     while(number!=0)
     {
